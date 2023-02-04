@@ -4,3 +4,57 @@
   padding: 2rem;
   text-align: center;
 }
+
+.main {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.time {
+  font-family: monospace;
+  padding: 1rem;
+  min-width: 18rem;
+  width: min-content;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  border: 2px solid rgb(133, 133, 133);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time > span {
+  font-size: 2.5rem;
+}
+.time span.milliseconds {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttons button {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.laps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 20rem;
+  padding: 0 3rem;
+  overflow: auto;
+  font-family: monospace;
+  font-size: 1.125rem;
+}
